@@ -1,1 +1,1 @@
-# westacton_stock_management_system
+# Looking for the project? Try the master branch. Thank you!
