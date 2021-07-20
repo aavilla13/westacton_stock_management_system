@@ -18,6 +18,7 @@ Simple stock management system can manage products and sales.
 
 * Use the sql file included in the project in able to start the program.
 * Run the file in your MySQL Tools (SQLyog, MySQL Workbench, phpMyAdmin, etc)
+* Download and extract the project in your default directory for publishing web pages.
 * You can also modify the database credentials under config/database.php file.
 
 ## Help
