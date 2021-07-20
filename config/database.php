@@ -3,8 +3,8 @@ class Database{
    
     // Database Credentials
     private $host = "localhost";
-    private $database = "trial_project";
-    private $username = "sa";
+    private $database = "westacton_stock_management_system";
+    private $username = "root";
     private $password = "vmsi123!";
 
     public $connection;
@@ -13,7 +13,7 @@ class Database{
  
         if (!isset($this->connection)) {
  
-            $this->connection = new PDO("sqlsrv:Server=" . $this->host . ";Database=" . $this->database, $this->username, $this->password);
+            $this->connection = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->database, $this->username, $this->password);
  
             if (!$this->connection) {
                 echo 'Cannot connect to database server';
